@@ -1,4 +1,4 @@
-package Programa;
+ package Programa;
 
 public class Cliente {
 
