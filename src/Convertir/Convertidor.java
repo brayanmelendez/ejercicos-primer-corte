@@ -109,6 +109,7 @@ public class Convertidor extends javax.swing.JFrame {
         double dineroIngresado = Double.parseDouble(dinero.getText());
         double dolar = 2892;
         double euro = 3346;
+        
 
         switch (divisa.getSelectedIndex()) {
             case (0):
