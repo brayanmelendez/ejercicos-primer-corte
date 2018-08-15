@@ -9,7 +9,7 @@ public class Ejericio1 {
         double V, T, D;
 
         V = Double.parseDouble(JOptionPane.showInputDialog(null, "ingrese la velocidad del movil"));
-        T = Double.parseDouble(JOptionPane.showInputDialog(null, "ingrese el tiempo del recorrido del mcvil"));
+        T = Double.parseDouble(JOptionPane.showInputDialog(null, "ingrese el tiempo del recorrido del movil"));
 
         D = V + T;
 
