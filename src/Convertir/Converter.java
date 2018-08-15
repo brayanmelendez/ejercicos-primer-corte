@@ -10,9 +10,6 @@ public class Converter {
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null,"ha ocurrido un error inesperado");
         }
-        
-        
-        
     }
 
     public static void convertir() {

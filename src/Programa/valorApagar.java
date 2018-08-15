@@ -45,7 +45,7 @@ public class valorApagar {
                 + "\n" + "LAS CUOTAS DEL CREDITO SON: " + c1.cuotas
                 + "\n" + "LA TASA DE INTERES QUE PRESENTA EL CREDITO ES: " + c1.intereses+"%"
                 + "\n" + "EL VALOR DE CREDIO ES: " + c1.valorCredito
-                + "\n" + "EL VALOR A PAGAR JUNTO CON LOS INTERESES ES DE: " + suma);
+                + "\n" + String.format("EL VALOR A PAGAR JUNTO CON LOS INTERESES ES DE: %,.2f",suma));
     }
 
 }
