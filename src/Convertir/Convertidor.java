@@ -53,6 +53,12 @@ public class Convertidor extends javax.swing.JFrame {
             }
         });
 
+        dinero.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                dineroActionPerformed(evt);
+            }
+        });
+
         jLabel1.setText("Divisa");
 
         jLabel2.setText("Dinero");
@@ -136,6 +142,10 @@ public class Convertidor extends javax.swing.JFrame {
         }
 
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void dineroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dineroActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_dineroActionPerformed
 
     /**
      * @param args the command line arguments
